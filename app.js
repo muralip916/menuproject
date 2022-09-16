@@ -292,7 +292,7 @@ function displayMenuButtons() {
   );
   const categoryBtns = categories
     .map(function (category) {
-      return `<button type="button" class="filter-btn" data-id=${category}>
+      return `<button type="button" class="filter-btn" data-id="${category}">
           ${category}
         </button>`;
     })
